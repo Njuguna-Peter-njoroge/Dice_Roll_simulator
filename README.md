@@ -28,17 +28,7 @@ A simple web application that simulates rolling a dice and keeps track of roll h
 - `styles.css` - Styling for the application
 - `index.js` - Dice rolling logic and UI updates
 
-## Screenshot
-function rollDice() {
-    const rollResult = Math.floor(Math.random() * 6) + 1;
-    const diceFace = getDiceFace(rollResult);
-    diceE1.innerHTML = diceFace;
-    historyList.push(rollResult);
-    updateRollHistoryList();
-    console.log(`Rolled a ${rollResult}`);
-    return rollResult;
-}
-![Dice Roll Simulator Screenshot](screenshot.png)
+
 
 ## Code Example
 
